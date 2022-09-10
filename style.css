@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+
+p {
+    font-size: 22px;
+}
+
+.navbar {
+
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    z-index: 3;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+#navd {
+    position: fixed;
+    right: 10px;
+}
+
+li {
+
+
+    display: inline;
+}
+
+li,
+a {
+
+    text-decoration: underline;
+    padding: 0 5px;
+}
+
+#mission {
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+    max-width: 100%;
+    background-image: url(./mission-background.jpg);
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+
+
+
+}
+
+#mi {
+
+    margin: 0 auto;
+    position: relative;
+    background-color: black;
+    top: 50%;
+
+    text-align: center;
+    padding: 10px;
+
+
+
+}
+
+#month {
+    text-align: center;
+    padding: 10px;
+
+}
+
+#featured {
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+#featured h4 {
+
+
+    padding-top: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+
+}
+
+
+
+
+.pic img {
+
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.pic p {
+    padding-bottom: 15px;
+    text-align: center;
+    padding-top: 10;
+}
+
+#locations {
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    max-width: 100%;
+    background-position: center -60px;
+    background-image: url(./locations-background.jpg);
+    background-repeat: no-repeat;
+
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+
+
+
+}
+
+.loco {
+    opacity: 1;
+
+    width: 300px;
+    height: 250px;
+    flex-direction: row;
+    margin: 20px;
+    text-align: center;
+
+
+
+}
+
+.loco,
+p h3 {
+    position: relative;
+    top: 15px;
+    line-height: 3;
+
+}
+
+#contact {
+
+
+    height: 200px;
+    text-align: center;
+    line-height: 3;
+}
+
+
+.email {
+    text-transform: lowercase;
+
+
+}
+
+#copy p {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    text-transform: none;
+
+}
